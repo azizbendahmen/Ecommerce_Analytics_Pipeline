@@ -1,0 +1,20 @@
+[project]
+name = "ecommerce-analytics-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "BEN DAHMEN Mohamed Aziz", email = "mohamedaziz.bendahmen@etudiant-isi.utm.tn" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "dbt-core>=1.12.5",
+    "dbt-databricks>=1.12.6",
+]
+
+[project.scripts]
+ecommerce-analytics-pipeline = "ecommerce_analytics_pipeline:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
