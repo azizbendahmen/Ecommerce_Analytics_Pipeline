@@ -1,0 +1,112 @@
+[0m20:46:56.851914 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B15FC1DC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B171650A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B17165250>]}
+
+
+============================== 20:46:56.976060 | d5e4d1e3-3b71-4ffb-ad5a-f394f02a2032 ==============================
+[0m20:46:56.976060 [info ] [MainThread]: Running with dbt=1.12.5
+[0m20:46:56.977060 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\benda\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'invocation_command': 'dbt init', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m20:47:40.535562 [debug] [MainThread]: Starter project path: C:\Users\benda\Desktop\Ecommerce_Analytics_Pipeline\.venv\Lib\site-packages\dbt\include\starter_project
+[0m20:47:40.560558 [info ] [MainThread]: Setting up your profile.
+[0m20:48:42.514282 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m20:48:42.514282 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m20:48:42.515280 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m21:05:05.662119 [info ] [MainThread]: Profile ecomm_project written to C:\Users\benda\.dbt\profiles.yml using target's profile_template.yml and your supplied values.
+[0m21:05:05.696556 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m21:05:05.697558 [info ] [MainThread]: dbt version: 1.12.5
+[0m21:05:05.698556 [info ] [MainThread]: python version: 3.12.14
+[0m21:05:05.698556 [info ] [MainThread]: python path: C:\Users\benda\Desktop\Ecommerce_Analytics_Pipeline\.venv\Scripts\python.exe
+[0m21:05:05.699555 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m21:05:05.765730 [info ] [MainThread]: Using profiles dir at C:\Users\benda\.dbt
+[0m21:05:05.765730 [info ] [MainThread]: Using profiles.yml file at C:\Users\benda\.dbt\profiles.yml
+[0m21:05:05.766725 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\benda\Desktop\Ecommerce_Analytics_Pipeline\ecomm_project\dbt_project.yml
+[0m21:05:05.766725 [info ] [MainThread]: adapter type: databricks
+[0m21:05:05.767726 [info ] [MainThread]: adapter version: 1.12.6
+[0m21:05:05.864555 [info ] [MainThread]: Configuration:
+[0m21:05:05.865558 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:05:05.865558 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m21:05:05.866560 [info ] [MainThread]: Required dependencies:
+[0m21:05:05.866560 [debug] [MainThread]: Executing "git --help"
+[0m21:05:05.903845 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:05:05.903845 [debug] [MainThread]: STDERR: "b''"
+[0m21:05:05.904846 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:05:05.904846 [info ] [MainThread]: Connection:
+[0m21:05:05.904846 [info ] [MainThread]:   host: dbc-91f6941b-f4c4.cloud.databricks.com
+[0m21:05:05.905848 [info ] [MainThread]:   http_path: /sql/1.0/warehouses/a69a0124fedde367
+[0m21:05:05.905848 [info ] [MainThread]:   catalog: ecommerce-analytics-pipeline
+[0m21:05:05.905848 [info ] [MainThread]:   schema: default
+[0m21:05:05.906848 [info ] [MainThread]: Registered adapter: databricks=1.12.6
+[0m21:05:06.368977 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(session-id=None, name=debug) - Creating connection
+[0m21:05:06.368977 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m21:05:07.471823 [info ] [MainThread]: Databricks adapter:   SPOG host (host_type='workspace'): no
+[0m21:05:07.472622 [info ] [MainThread]: Databricks adapter:   workspace_id (from ?o= in http_path): None
+[0m21:05:07.472622 [info ] [MainThread]: Databricks adapter:   databricks-sql-connector version: 4.4.0 (supported)
+[0m21:05:07.473650 [info ] [MainThread]: Databricks adapter:   databricks-sdk version: 0.117.0 (supported)
+[0m21:05:07.473650 [debug] [MainThread]: Using databricks connection "debug"
+[0m21:05:07.473650 [debug] [MainThread]: On debug: select 1 as id
+[0m21:05:07.474639 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:05:09.485768 [error] [MainThread]: databricks-sql-connector adapter: ThriftBackend.attempt_request: Exception: 
+[0m21:05:09.495880 [error] [MainThread]: Databricks adapter: Connection(session-id=Unknown) - Exception while trying to create connection: Error during request to server: : Invalid access token.. 
+Error properties: attempt=1/30, bounded-retry-delay=None, elapsed-seconds=1.1855134963989258/900.0, error-message=: Invalid access token., http-code=403, method=OpenSession, no-retry-reason=non-retryable error, original-exception=, query-id=None, session-id=None
+[0m21:05:09.496882 [debug] [MainThread]: Databricks adapter: Exception while trying to execute query
+select 1 as id
+: Database Error
+  Error during request to server: : Invalid access token.. 
+[0m21:05:09.497879 [debug] [MainThread]: On debug: No close available on handle
+[0m21:05:09.497879 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m21:05:09.498878 [info ] [MainThread]: [31m1 check failed:[0m
+[0m21:05:09.499881 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Database Error
+    Error during request to server: : Invalid access token.. 
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m21:05:09.500881 [info ] [MainThread]: Your new dbt project "ecomm_project" was created!
+Initialized new project in C:\Users\benda\Desktop\Ecommerce_Analytics_Pipeline\ecomm_project\ecomm_project
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:05:09.500881 [info ] [MainThread]: [31mYour profile may need adjustments. You can find the logs of `dbt debug` above[0m
+[0m21:05:09.502882 [debug] [MainThread]: Command `dbt init` succeeded at 21:05:09.502882 after 1092.85 seconds
+[0m21:05:09.503881 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B19359190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B3E879C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B3E8887D0>]}
+[0m21:05:09.503881 [debug] [MainThread]: Flushing usage events
+[0m21:05:11.007141 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:06:03.450428 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020BB00E8860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020BB5A3B7A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020BB5A39460>]}
+
+
+============================== 21:06:03.455446 | 004873b7-592d-460a-9dfb-45d135d4ce1d ==============================
+[0m21:06:03.455446 [info ] [MainThread]: Running with dbt=1.12.5
+[0m21:06:03.455446 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\benda\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m21:06:03.477916 [info ] [MainThread]: dbt version: 1.12.5
+[0m21:06:03.478913 [info ] [MainThread]: python version: 3.12.14
+[0m21:06:03.478913 [info ] [MainThread]: python path: C:\Users\benda\Desktop\Ecommerce_Analytics_Pipeline\.venv\Scripts\python.exe
+[0m21:06:03.478913 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m21:06:04.624817 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m21:06:04.625817 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m21:06:04.625817 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m21:06:05.722539 [info ] [MainThread]: Using profiles dir at C:\Users\benda\.dbt
+[0m21:06:05.723539 [info ] [MainThread]: Using profiles.yml file at C:\Users\benda\.dbt\profiles.yml
+[0m21:06:05.723539 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\benda\Desktop\Ecommerce_Analytics_Pipeline\dbt_project.yml
+[0m21:06:05.724540 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m21:06:05.725541 [debug] [MainThread]: Command `dbt debug` failed at 21:06:05.725541 after 2.45 seconds
+[0m21:06:05.725541 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020BB5A3B7A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020BD8DD8B00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020BD9B89AC0>]}
+[0m21:06:05.726541 [debug] [MainThread]: Flushing usage events
+[0m21:06:07.233471 [debug] [MainThread]: An error was encountered while trying to flush usage events
