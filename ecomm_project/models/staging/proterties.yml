@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: stg_cust_info
+    config:
+      materialized: view
+
+  - name: stg_prd_info
+    config:
+      materialized: view
+
+  - name: stg_sales_info
+    config:
+      materialized: view
+
+  - name: stg_cust_az_12
+    config:
+      materialized: view
+
+  - name: stg_loc_a_101
+    config:
+      materialized: view
+      
+  - name: stg_px_cat_g_1_v_2
+    config:
+      materialized: view
